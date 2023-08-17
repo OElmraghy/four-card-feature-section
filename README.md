@@ -1,6 +1,6 @@
-# Frontend Mentor - Testimonials grid section solution
+# Frontend Mentor - Four card feature section solution
 
-This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/OElmraghy/testimonials-grid-section-main)
-- Live Site URL: (https://oelmraghy.github.io/testimonials-grid-section-main)
+- Solution URL: (https://github.com/OElmraghy/four-card-feature-section)
+- Live Site URL: (https://oelmraghy.github.io/four-card-feature-section)
 
 ### Built with
 
