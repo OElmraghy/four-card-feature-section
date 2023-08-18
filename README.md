@@ -31,7 +31,6 @@ Users should be able to:
 ### Built with
 
 - CSS custom properties
-- Grid
 - Flex-box
 
 ## Author

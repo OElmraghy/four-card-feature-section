@@ -22,10 +22,10 @@ body {
 
 main {
   min-height: 100vh;
-  display: grid;
-  place-items: center;
-  margin: auto;
-  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 header {
@@ -33,6 +33,13 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 740px) {
+  header {
+    margin-top: 1rem;
+  }
 }
 
 h2 {
@@ -45,6 +52,13 @@ header h2 {
   color: var(--very-dark-blue);
 }
 
+@media (max-width: 810px) {
+  h1,
+  header h2 {
+    font-size: 1.5rem;
+  }
+}
+
 header p {
   margin: 1rem 0;
   text-align: center;
@@ -53,9 +67,18 @@ header p {
 }
 
 .cards {
+  position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 2rem;
+}
+
+@media (max-width: 1210px) {
+  .cards {
+    max-width: 792px;
+  }
 }
 
 .card {
@@ -64,8 +87,8 @@ header p {
   align-items: flex-start;
   justify-content: space-between;
   padding: 2rem;
-  width: 400px;
-  height: 250px;
+  width: 380px;
+  height: 280px;
   background-color: white;
   box-shadow: 0px 5px 15px -10px black;
   border-radius: 0.8rem;
@@ -75,18 +98,55 @@ header p {
   -o-border-radius: 0.8rem;
 }
 
+@media (max-width: 740px) {
+  .card {
+    width: 350px;
+  }
+}
+
 .card img {
   align-self: flex-end;
 }
 
 .card h3 {
   color: var(--very-dark-blue);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
 }
 
 .card p {
+  font-size: 14px;
   color: var(--grayish-blue);
 }
 
+.cyan {
+  border-top: 5px solid var(--cyan);
+}
+
 .red {
+  border-top: 5px solid var(--red);
   margin-bottom: 2rem;
+}
+
+.orange {
+  border-top: 5px solid var(--orange);
+}
+
+.blue {
+  border-top: 5px solid var(--blue);
+}
+
+@media (max-width: 1210px) {
+  .blue {
+    position: absolute;
+    left: 0;
+    bottom: -155px;
+  }
+}
+
+@media (max-width: 808px) {
+  .blue {
+    position: initial;
+    margin-bottom: 2rem;
+  }
 }
